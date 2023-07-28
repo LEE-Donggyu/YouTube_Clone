@@ -1,0 +1,92 @@
+.container{
+  padding-top: 56px;
+  display: flex;
+  flex-direction: row;
+}
+.main{
+  margin-left: 300px;
+}
+.main_box{
+  display: flex;
+  flex-direction: row;
+}
+.main_item{
+  width: 366.65px;
+  height: 306.24px;
+}
+.main_item_title{
+  display: flex;
+}
+.avi_image{
+  width: 344.79px;
+  height: 193.94px;
+  border-radius: 10px;
+}
+.person_img{
+  width: 36px;
+  height: 36px;
+}
+.main_item_title_info{
+  width: 296.79px;
+  height: 100px;
+}
+.main_title{
+  width: 272.79px;
+  height: 44px;
+}
+.main_maker, .main_click{
+  width: 272.79px;
+  height: 20px;
+  color: #606060;
+}
+
+.shorts{
+  border-top: 4px solid #E5E5E5;
+  border-bottom: 4px solid #E5E5E5;
+  height: 640.99px;
+}
+.shorts_main_title{
+  width: 90.4px;
+  height: 28px;
+  margin: 24px 0px 24px 8px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.shorts_main_title_icon{
+  width: 24px;
+  height: 24px;
+}
+.shorts_main{
+  display: flex;
+  flex-direction: row;
+}
+.shorts_box{
+  text-align: center;
+  width: 301px;
+  height: 516.99px;
+}
+.shorsts_img{
+  width: 235.59px;
+  height: 417.79px;
+  border-radius: 10px;
+}
+.shorts_title_info{
+  width: 225.31px;
+  height: 37.2px;
+  padding: 12px 24px 0px 0px;
+}
+.shorts_title, .shorts_click{
+  text-align: left;
+}
+.shorts_click{
+  color: #606060;
+  width: 225.31px;
+  height: 20px;
+}
+
+.main2_box{
+  padding-top: 24px;
+  display: flex;
+  flex-direction: row;
+}

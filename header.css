@@ -1,0 +1,83 @@
+.header{
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 16px;
+  right: 16px;
+  z-index: 1000;
+  background-color: white;
+}
+.nav{
+  height: 100%;
+  display: flex;
+  text-align: center;
+}
+.nav_bar{
+  height: 24px;
+  width: 24px;
+  margin: 0px 4px 0px 0px;
+  padding: 18px 8px 8px 8px;
+}
+.logo{
+  height: 20px;
+  padding: 18px 14px 18px 16px;
+}
+
+.center{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 40px;
+}
+.search_in, .search_bt{
+  text-align: center;
+}
+#search_btn{
+  width: 64px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 15px 15px 0px;
+}
+#search_icon{
+  width: 24px;
+  height: 24px;
+}
+#search_input{
+  height: 36.4px;
+  width: 536px;
+  padding-left: 10px;
+  font-size: 17px;
+  border-radius: 15px 0px 0px 15px;
+}
+#search_input, #search_btn{
+  border: 1px solid #E5E5E5;
+}
+
+.end{
+  width: 143.25px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.header_settings{
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+}
+.header_login{
+  width: 95.25px;
+  height: 36px;
+  border: 1px solid #E5E5E5;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #065FD4;
+}
